@@ -10,15 +10,19 @@ router.get('/donate', function(req, res, next) {
 });
 
 router.get('/scoreboard', function(req, res, next) {
-  res.render('home', { title: 'Scoreboard', url: '/scoreboard' });
+  res.render('scoreboard', { title: 'Scoreboard', url: '/scoreboard' });
 });
 
-router.get('/leaderboard', function(req, res, next) {
-  res.render('home', { title: 'Leaderboard', url: '/leaderboard' });
+router.get('/stats', function(req, res, next) {
+  res.render('leaderboard', { title: 'Stats', url: '/stats', stats: true });
 });
 
 router.get('/contribute', function(req, res, next) {
-  res.render('home', { title: 'Contribute', url: '/Contribute' });
+  res.render('contribute', { title: 'Contribute', url: '/Contribute' });
+});
+
+router.use(function(req, res, next) {
+  res.render('not_found', { title: '404', url: '/not_found' });
 });
 
 module.exports = router;
