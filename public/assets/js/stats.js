@@ -16,7 +16,7 @@ $(document).ready(function () {
         $('#leaderboard').append(tr);
       }
     }).done(function(json) {
-      $('#leaderboard').dataTable({ responsive: true, columnDefs: [ { targets: [1,8], orderable: false } ] });
+      $('#leaderboard').dataTable({ responsive: true, order: [[ 2, "desc" ]], columnDefs: [ { targets: [1,8], orderable: false } ] });
       $('#leaderboard').fadeIn();
       $('#loading').hide(); 
     });

@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/bg.jpg') no-repeat fixed center center / cover #000;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/bg.jpg') no-repeat fixed center center / cover #000;
   color: rgb(155, 155, 155);
   font-family: 'Georgia', serif;
 }
@@ -222,4 +222,26 @@ table tr td {
   width: 100%;
   margin-top: 20%;
   text-align: center;
+}
+
+.servers {
+  font-family: "Xolonium", Helvetica, Arial, sans-serif;
+  padding: 15px 5px 15px;
+}
+.button, .round, .alert {
+  font-family: "Xolonium", Helvetica, Arial, sans-serif;
+  cursor: default;
+  background: #007095!important;
+}
+
+.server_link {
+  background: #fff;
+  padding: 5px 8px 5px;
+  border-radius: 100px;
+}
+
+.server_link:hover {
+  background: #EFEFEF;
+  border-color: #9ecaed;
+  box-shadow: 0 0 50px #9ecaed;
 }

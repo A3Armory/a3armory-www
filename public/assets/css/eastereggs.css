@@ -1,0 +1,15 @@
+body {
+  background-image: url("../img/eastereggs/micovery.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+div {
+  display: none;
+}
+
+h1 {
+  color: #fff;
+}
