@@ -1,11 +1,3 @@
-body {
-  background: url('../img/stats_bg.jpg') no-repeat fixed center center / cover #000;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
 @media screen and (max-width: 600px) {
   body {
     background: #000!important;
@@ -17,7 +9,7 @@ body {
 
 }
 
-select[name="leaderboard_length"] { 
+select[name="altis1_length"], select[name="altis2_length"], select[name="stratis_length"] { 
   background-color:rgba(0, 0, 0, 0.5)!important;
   border: 1px solid #436688!important;
   color: #fff!important;
@@ -39,4 +31,41 @@ input[type="search"] {
   border: 1px solid #436688!important;
   color: #fff!important;
   outline: 0!important;
+}
+
+.board {
+  max-width: 1200px; 
+  min-height: 500px; 
+  margin:auto; 
+  padding: 20px 20px 20px;
+}
+
+#altis1, #altis2 {
+  display: none;
+}
+
+.GUER, .EAST, .WEST, .CIV {
+  list-style: none;
+}
+
+.GUER:before, .EAST:before, .WEST:before, .CIV:before {
+  content: "■";
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.GUER:before {
+  color: #66C858;
+}
+
+.EAST:before {
+  color: #FF383D;
+}
+
+.WEST:before {
+  color: #3179FF;
+}
+
+.CIV:before {
+  color: #DADADA;
 }

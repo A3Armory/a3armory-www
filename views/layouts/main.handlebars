@@ -18,6 +18,9 @@
   {{#if stats}}
     <link rel="stylesheet" href="assets/css/stats.css" />
   {{/if}}
+  {{#if scores}}
+    <link rel="stylesheet" href="assets/css/scoreboard.css" />
+  {{/if}}
   <script src="assets/js/vendor/modernizr.js"></script>
 </head>
 <body>
@@ -28,12 +31,16 @@
   <script type="text/javascript" src="assets/js/foundation.min.js"></script>
   {{#if stats}}
     <script type="text/javascript" src="assets/js/stats.js" ></script>
-    <script type="text/javascript" src="assets/js/vendor/moment.js" ></script>
-    <script type="text/javascript" src="assets/js/vendor/livestamp.min.js"></script>
-    <script type="text/javascript" src="assets/datatable/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="assets/datatable/dataTables.foundation.js"></script>
-    <script type="text/javascript" src="assets/datatable/dataTables.responsive.js"></script>
   {{/if}}
+  {{#if scores}}
+    <script type="text/javascript" src="assets/js/scoreboard.js" ></script>
+  {{/if}}
+  <script type="text/javascript" src="assets/js/vendor/moment.js" ></script>
+  <script type="text/javascript" src="assets/js/vendor/livestamp.min.js"></script>
+  <script type="text/javascript" src="assets/datatable/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="assets/datatable/dataTables.foundation.js"></script>
+  <script type="text/javascript" src="assets/datatable/dataTables.responsive.js"></script>
+  
   <script type="text/javascript">
     $(document).foundation();
   </script>

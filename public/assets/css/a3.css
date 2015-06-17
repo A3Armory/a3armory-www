@@ -217,3 +217,9 @@ table tr td {
 .email {
   color: #008CBA;
 }
+
+.notfound {
+  width: 100%;
+  margin-top: 20%;
+  text-align: center;
+}
