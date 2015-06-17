@@ -3,35 +3,37 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="img/favicon.ico" rel="shortcut icon">
+  <link href="assets/img/favicon.ico" rel="shortcut icon">
   <title>{{{title}}} - A3Armory.com</title>
   <meta property="og:site_name" content="A3Armory.com">
   <meta property="og:title" content="A3Armory.com">
-  <meta property="og:description" content="A3Armory's goal is the best possible server performance with a fair community, free from hackers, trolls, and exploitative members.">
+  <meta property="og:description" content="Based on the popular A3Wasteland mod. We are an active ArmA 3 community that balances game play and support for an addictive military sandbox experience.">
   <meta property="og:url" content="http://a3armory.com{{{url}}}">
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="datatable/foundation.min.css" />
-  <link rel="stylesheet" href="datatable/dataTables.foundation.css" />
-  <link rel="stylesheet" href="http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css" />
-  <link rel="stylesheet" href="css/a3.css" />
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/datatable/foundation.min.css" />
+  <link rel="stylesheet" href="assets/datatable/dataTables.foundation.css" />
+  <link rel="stylesheet" href="assets/http://cdn.datatables.net/responsive/1.0.6/css/dataTables.responsive.css" />
+  <link rel="stylesheet" href="assets/css/a3.css" />
   {{#if stats}}
-    <link rel="stylesheet" href="css/stats.css" />
+    <link rel="stylesheet" href="assets/css/stats.css" />
   {{/if}}
-  <script src="js/vendor/modernizr.js"></script>
+  <script src="assets/js/vendor/modernizr.js"></script>
 </head>
 <body>
   {{>menu}}
   {{{body}}}
   {{>footer}}
-  <script type="text/javascript" src="js/vendor/jquery.js"></script>
-  <script type="text/javascript" src="js/foundation.min.js"></script>
-  <script type="text/javascript" src="js/stats.js" ></script>
-  <script type="text/javascript" src="js/vendor/moment.js" ></script>
-  <script type="text/javascript" src="js/vendor/livestamp.min.js"></script>
-  <script type="text/javascript" src="datatable/jquery.dataTables.min.js"></script>
-  <script type="text/javascript" src="datatable/dataTables.foundation.js"></script>
-  <script type="text/javascript" src="datatable/dataTables.responsive.js"></script>
+  <script type="text/javascript" src="assets/js/vendor/jquery.js"></script>
+  <script type="text/javascript" src="assets/js/foundation.min.js"></script>
+  {{#if stats}}
+    <script type="text/javascript" src="assets/js/stats.js" ></script>
+    <script type="text/javascript" src="assets/js/vendor/moment.js" ></script>
+    <script type="text/javascript" src="assets/js/vendor/livestamp.min.js"></script>
+    <script type="text/javascript" src="assets/datatable/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets/datatable/dataTables.foundation.js"></script>
+    <script type="text/javascript" src="assets/datatable/dataTables.responsive.js"></script>
+  {{/if}}
   <script type="text/javascript">
     $(document).foundation();
   </script>
