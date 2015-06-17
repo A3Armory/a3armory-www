@@ -10,7 +10,6 @@ body {
   .tsbg {
     background: #000!important;
   }
-
 }
 
 select[name="leaderboard_length"] { 
