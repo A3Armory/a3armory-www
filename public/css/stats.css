@@ -1,0 +1,42 @@
+body {
+  background: url('../img/stats_bg.jpg') no-repeat fixed center center / cover #000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: #000!important;
+  }
+
+  .tsbg {
+    background: #000!important;
+  }
+
+}
+
+select[name="leaderboard_length"] { 
+  background-color:rgba(0, 0, 0, 0.5)!important;
+  border: 1px solid #436688!important;
+  color: #fff!important;
+  outline: 0!important;
+}
+
+.board {
+  font-family: "Xolonium", Helvetica, Arial, sans-serif;
+}
+
+.loading {
+  display: block;
+  margin: auto;
+  padding: 50px;
+}
+
+input[type="search"] {
+  background-color:rgba(0, 0, 0, 0.5)!important;
+  border: 1px solid #436688!important;
+  color: #fff!important;
+  outline: 0!important;
+}
