@@ -4,8 +4,13 @@
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+  Front-end Components: jQuery, DataTable, Foundation, MomentJS, LiveStamp, Modernizr
+  Back-end Components: Node.js, Express, Handlebars
+  Software: Sublime, Git
 
 /* FRONT-END DEVELOPER */
-	[BRAZIL] - fiSUNE
+	fiSUNE (https://github.com/barrosfilipe/a3armory-www)
+
+/* BACK-END DEVELOPER */
+  fiSUNE (https://github.com/barrosfilipe/a3armory-www)
+
