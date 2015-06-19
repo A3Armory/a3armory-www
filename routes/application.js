@@ -18,11 +18,7 @@ router.get('/stats', function(req, res, next) {
 });
 
 router.get('/contribute', function(req, res, next) {
-  res.render('contribute', { title: 'Contribute', url: '/Contribute' });
-});
-
-router.get('/micovery', function(req, res, next) {
-  res.render('micovery', { title: 'Contribute', url: '/micovery', eastereggs: true });
+  res.render('contribute', { title: 'Contribute', url: '/contribute' });
 });
 
 router.use(function(req, res, next) {
