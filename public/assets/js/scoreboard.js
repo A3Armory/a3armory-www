@@ -5,13 +5,13 @@ $(document).ready(function () {
       for (var i = 0; i < json.length; i++) {
         tr = $('<tr/>');
         var team = json[i]['PlayerInfo']['LastGroupSide'];
-        tr.append("<td>" + "<li class='" + team + "'>" + team + "</li></td>");
-        tr.append("<td style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['playerKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['aiKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['deathCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['captureCount'] + "</td>");
+        tr.append("<td id='PlayerTeam'>" + "<li class='" + team + "'>" + team + "</li></td>");
+        tr.append("<td id='PlayerName' style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
+        tr.append("<td id='PlayerKills'>" + json[i]['PlayerScore']['playerKills'] + "</td>");
+        tr.append("<td id='PlayerAI'>" + json[i]['PlayerScore']['aiKills'] + "</td>");
+        tr.append("<td id='PlayerDeath'>" + json[i]['PlayerScore']['deathCount'] + "</td>");
+        tr.append("<td id='PlayerRevive'>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
+        tr.append("<td id='PlayerCapture'>" + json[i]['PlayerScore']['captureCount'] + "</td>");
         $('#altis1').append(tr);
       }
     }).done(function(json) {
@@ -26,13 +26,13 @@ $(document).ready(function () {
       for (var i = 0; i < json.length; i++) {
         tr = $('<tr/>');
         var team = json[i]['PlayerInfo']['LastGroupSide'];
-        tr.append("<td>" + "<li class='" + team + "'>" + team + "</li></td>");
-        tr.append("<td style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['playerKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['aiKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['deathCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['captureCount'] + "</td>");
+        tr.append("<td id='PlayerTeam'>" + "<li class='" + team + "'>" + team + "</li></td>");
+        tr.append("<td id='PlayerName' style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
+        tr.append("<td id='PlayerKills'>" + json[i]['PlayerScore']['playerKills'] + "</td>");
+        tr.append("<td id='PlayerAI'>" + json[i]['PlayerScore']['aiKills'] + "</td>");
+        tr.append("<td id='PlayerDeath'>" + json[i]['PlayerScore']['deathCount'] + "</td>");
+        tr.append("<td id='PlayerRevive'>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
+        tr.append("<td id='PlayerCapture'>" + json[i]['PlayerScore']['captureCount'] + "</td>");
         $('#altis2').append(tr);
       }
     }).done(function(json) {
@@ -47,13 +47,13 @@ $(document).ready(function () {
       for (var i = 0; i < json.length; i++) {
         tr = $('<tr/>');
         var team = json[i]['PlayerInfo']['LastGroupSide'];
-        tr.append("<td>" + "<li class='" + team + "'>" + team + "</li></td>");
-        tr.append("<td style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['playerKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['aiKills'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['deathCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
-        tr.append("<td>" + json[i]['PlayerScore']['captureCount'] + "</td>");
+        tr.append("<td id='PlayerTeam'>" + "<li class='" + team + "'>" + team + "</li></td>");
+        tr.append("<td id='PlayerName' style=\"color: #357EBD;\">" + json[i]['PlayerInfo']['Name'] + "</td>");
+        tr.append("<td id='PlayerKills'>" + json[i]['PlayerScore']['playerKills'] + "</td>");
+        tr.append("<td id='PlayerAI'>" + json[i]['PlayerScore']['aiKills'] + "</td>");
+        tr.append("<td id='PlayerDeath'>" + json[i]['PlayerScore']['deathCount'] + "</td>");
+        tr.append("<td id='PlayerRevive'>" + json[i]['PlayerScore']['reviveCount'] + "</td>");
+        tr.append("<td id='PlayerCapture'>" + json[i]['PlayerScore']['captureCount'] + "</td>");
         $('#stratis').append(tr);
       }
     }).done(function(json) {
