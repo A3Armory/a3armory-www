@@ -14,7 +14,7 @@ router.get('/scoreboard', function(req, res, next) {
 });
 
 router.get('/stats', function(req, res, next) {
-  res.render('stats', { title: 'Stats', url: '/stats', stats: true });
+  res.render('leaderboard', { title: 'Stats', url: '/stats', stats: true });
 });
 
 router.get('/contribute', function(req, res, next) {
@@ -22,7 +22,7 @@ router.get('/contribute', function(req, res, next) {
 });
 
 router.use(function(req, res, next) {
-  res.render('not_found', { title: '404', url: '' });
+  res.render('errors/404', { title: '404', url: '' });
 });
 
 module.exports = router;
