@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 //app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 //app.set('view engine', 'handlebars');
 
-app.engine('.hbs', exphbs({extname: '.hbs', defaultLayout: 'main'}));
+app.engine('.hbs', exphbs({extname: '.hbs', defaultLayout: 'layout'}));
 app.set('view engine', '.hbs');
 
 // uncomment after placing your favicon in /public

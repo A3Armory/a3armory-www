@@ -45,6 +45,9 @@ h1, h2, h3, h4, h5 {
     display: none!important;
   }
 
+  .mobile-button {
+    display: none;
+  }
 }
 
 body {
@@ -236,6 +239,7 @@ table tr td {
   font-family: "Xolonium", Helvetica, Arial, sans-serif;
   cursor: default;
   background: #007095!important;
+  font-size: 1rem;
 }
 
 .server_link {

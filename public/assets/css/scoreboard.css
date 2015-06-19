@@ -11,6 +11,13 @@ body {
     background: #000!important;
   }
 
+  div.dataTables_filter input {
+    display: inline-block !important;
+    width: 100% !important;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+  }
+
 }
 
 select[name="altis1_length"], select[name="altis2_length"], select[name="stratis_length"] { 

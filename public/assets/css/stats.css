@@ -10,6 +10,13 @@ body {
   .tsbg {
     background: #000!important;
   }
+
+  div.dataTables_filter input {
+    display: inline-block !important;
+    width: 100% !important;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+  }
 }
 
 select[name="leaderboard_length"] { 
