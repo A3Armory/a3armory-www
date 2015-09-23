@@ -14,4 +14,4 @@ Requires [Node.js](http://nodejs.org/)
 
 ### Demo
 
-[http://barrosfilipe.tk:3000](http://barrosfilipe.tk:3000)
+[http://barrosfilipe.tk:3000](http://barrosfilipe.tk:3000) or [http://a3armory.com](http://a3armory.com)
